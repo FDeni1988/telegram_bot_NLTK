@@ -90,7 +90,7 @@ pip install nltk python-telegram-bot python-dotenv
 
 ## Структура проекта
 
-- `bot.py` — основной файл с кодом бота.
+- `main.py` — основной файл с кодом бота.
 - `.env` — файл для хранения токена бота.
 - `README.md` — этот файл.
 
@@ -99,7 +99,7 @@ pip install nltk python-telegram-bot python-dotenv
 1. Убедитесь, что все зависимости установлены.
 2. Запустите бота:
    ```bash
-   python bot.py
+   python main.py
    ```
 3. Отправьте сообщение своему боту в Telegram и получите ответ.
 
