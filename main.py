@@ -4,10 +4,10 @@ import telebot
 from dotenv import load_dotenv
 import os
 
-# Обязательно выполните эту команду, чтобы NLTK мог работать с токенизацией
+# Команда, чтобы NLTK мог работать с токенизацией
 nltk.download('popular')
 
-# Замените 'YOUR_BOT_TOKEN' на токен вашего бота
+# Токен бота
 load_dotenv()
 TOKEN = os.getenv('API_KEY')
 bot = telebot.TeleBot(TOKEN)
